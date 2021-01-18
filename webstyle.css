@@ -1,0 +1,55 @@
+h1
+{
+    text-align: center;
+    color: #E9AA34;
+    font-size: 42px;
+    font-family: 'Comfortaa', cursive;
+    padding: 40px ;
+    background-color: #FAFBEF;
+}
+
+.bg
+{
+    background-color: #F5EBCA;
+}
+
+.center
+{
+    text-align:center;
+}
+
+.p
+{
+    color: #8E5F07;
+    font-size: 24px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+.p1
+{
+    color: #8E5F07;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+.p2
+{
+    color: #1B1914;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+.button 
+{
+  background-color:#E9AA34; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
