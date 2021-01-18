@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+        <head>
+            <title>
+                Bmi calculator
+            </title>
+            <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="webstyle.css">
+            <script>
+                function calculate()
+                {
+                    var height=document.getElementById("height").value;
+                    var weight=document.getElementById("weight").value;
+                    var result=parseFloat(weight)/[parseFloat(height)*parseFloat(height)];
+                    
+                    if(! isNaN(result))
+                    {
+                        document.getElementById("answer").innerHTML= "Bmi is " + result;
+                    }
+                
+                    if(result < 18.5)
+                    {
+                       document.getElementById("explanation").innerHTML= "Under weight";
+                       return 0;
+                    }
+                    if (result < 24.9)
+                    {
+                       document.getElementById("explanation").innerHTML= "Normal weight";
+                       return 0;
+                    }
+                    if (result < 29.9)
+                    {
+                       document.getElementById("explanation").innerHTML= "Over weight";
+                       return 0;
+                    }
+                    if (result > 29.9)
+                    {
+                       document.getElementById("explanation").innerHTML= "Obses";
+                       return 0;
+                    }
+                }
+            </script>
+        </head>
+        <body class="bg">
+            <h1> What's my bmi?</h1>
+            <form class="center">
+                <p class="p"> Height in meter </p>
+                <input name="height" placeholder="height ex.= 1.7" id="height">
+                <p class="p"> Weight in kilogram</p>
+                <input name="weight" placeholder="weight ex.= 60" id="weight">
+                <p class="p1"> click the button to see the result </p>
+                <input class="button" type="button" onclick="calculate()" value="Click">
+                <p class="p" id="answer"></p>
+                <p class="p" id="explanation"></p>
+            </form>
+            <br>
+            <br>
+            <p class="p2"> If your weight is less than or more than the suppose weight, try to eat more or exercise.<br>
+                However, please not stress much, weight is not everything. Beauty is not define by a weight!</p>
+        </body>
+    </html>
+</DOCTYPE>
