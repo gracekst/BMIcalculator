@@ -2,7 +2,7 @@ h1
 {
     text-align: center;
     color: #E9AA34;
-    font-size: 42px;
+    font-size: 24px;
     font-family: 'Comfortaa', cursive;
     padding: 40px ;
     background-color: #FAFBEF;
@@ -21,7 +21,7 @@ h1
 .p
 {
     color: #8E5F07;
-    font-size: 24px;
+    font-size: 18px;
     font-family: 'Comfortaa', cursive;
     text-align: center;
 }
@@ -29,7 +29,7 @@ h1
 .p1
 {
     color: #8E5F07;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Comfortaa', cursive;
     text-align: center;
 }
@@ -37,7 +37,7 @@ h1
 .p2
 {
     color: #1B1914;
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Comfortaa', cursive;
     text-align: center;
 }
@@ -51,5 +51,5 @@ h1
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
 }
